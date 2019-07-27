@@ -8,3 +8,70 @@
 #topnav {
     text-align: center;
 }
+
+input[type=text] {
+    width: 500px;
+    height: 40px;
+    box-sizing: border-box;
+    border: .5px solid gray;
+    border-radius: 30px;
+    outline:none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type=text]:hover {
+    border: 2px solid gray;
+}
+
+input[type=text]:focus {
+    border: 2px solid gray;
+}
+
+#search-buttons{
+        text-align: center;
+        padding-top: 20px;
+}
+
+#google-search {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:10px;
+}
+
+#feeling-lucky {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+#top-right-nav {
+    position: relative;
+    float: right;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
